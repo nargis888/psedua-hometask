@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top:100px ;
+    
+}
+
+div{
+    width: 420px;
+    height: 312px;
+    font-family: "Open Sans", serif;
+    position: relative;
+    margin-left: 20px;
+}
+
+
+div::after{
+    content: "";
+    width: 500px;
+    height: 300px;
+    background-image: url(./Frame\ 2216\ 1.svg);
+    position: absolute;
+    top: 0;
+    right: -580px;
+}
+
